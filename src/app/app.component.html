@@ -1,0 +1,43 @@
+<ion-app>
+  <ion-menu menuId="main-menu" content-id="main">
+    <ion-content>
+      <div class="menu-header-bg"></div>
+      <div class="header-content">
+      <img src ="../assets/h2.jpg" alt="">
+      <ion-label>
+        <h2>Harya Nugroho</h2>
+        <p>Teknik Informatika</p>
+      </ion-label>
+    </div>
+      <ion-list>
+        <ion-menu-toggle>
+          <ion-item routerLink="/home">
+            <ion-icon name="home" slot="start"></ion-icon>
+          <ion-label>Home</ion-label>
+          </ion-item>  
+          <ion-item routerLink="/matkul">
+            <ion-icon name="book" slot="start"></ion-icon>
+          <ion-label>Matakuliah</ion-label>
+          </ion-item>  
+          <ion-item routerLink="/jadwal">
+            <ion-icon name="reader" slot="start"></ion-icon>
+          <ion-label>Jadwal</ion-label>
+          </ion-item>  
+          <ion-item routerLink="/nilai">
+            <ion-icon name="layers" slot="start"></ion-icon>
+          <ion-label>Nilai</ion-label>
+          </ion-item>
+          <ion-item routerLink="/krs">
+            <ion-icon name="map" slot="start"></ion-icon>
+          <ion-label>KRS</ion-label>
+        </ion-item>
+        <ion-item routerLink="/keuangan">
+          <ion-icon name="calculator" slot="start"></ion-icon>
+        <ion-label>Keungan</ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet id="main"></ion-router-outlet>
+</ion-app>

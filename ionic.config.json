@@ -1,0 +1,7 @@
+{
+  "name": "quizharya",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
